@@ -1,0 +1,42 @@
+Práticas avançadas em projetos com ReactJs
+
+Ciclo de vida React
+	- Inicialização
+	- Montagem
+	- Atualização
+	- Desmontagem
+	
+	  /*
+  componentWillMount está depreciado desde o ReactJs na versão 17, não é recomendando utilizar em novos projetos.  
+
+  componentWillMount() {
+    console.log('componentWillMount');
+  }
+*/
+  componentDidMount() {
+    console.log('componentDidMount');
+  }
+  
+
+Hooks - São uma nova adição ao React. Eles permitem que você use o state e outros recursos do React sem escrever uma classe.
+
+Algumas Hooks:
+
+	- useState
+	- useEffect
+	- use Context
+	- use Reducer
+	- useCallback
+	- useMemo
+	- useRef
+	- useImperativeHandle
+	- useLayoutEffect
+	- useDebugValue
+
+Hooks não devem ser usados em funções JavaScript comuns. Em vez disso, pode-se;
+    - chamar hooks em componentes React.
+    - chamar hooks dentro de hooks customizados.
+Seguindo essas regras, você garande que toda a lógica de estado (state) no componente seja claramente visível no código fonte.
+
+
+Context API - 

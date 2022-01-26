@@ -30,4 +30,4 @@ class Twitter extends Component {
   }
 }
 
-export default Twitter
+export default Twitter;

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Twitter from "./Twitter";
+import Twitter from "./TwitterComponet";
+import AppHooks from "./AppHooks";
 
 class App extends Component {
 
